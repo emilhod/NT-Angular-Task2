@@ -1,0 +1,12 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="userId">UserID</label>
+        <input type="number" name="userId" [(ngModel)]="userId" id="userId" placeholder="Add UserID">
+    </div>
+    <div class="form-control">
+        <label for="text">Add Data</label>
+        <input type="text" name="title" [(ngModel)]="title" id="text" placeholder="Add Album Title">
+    </div>
+    <input type="submit" value="Save Data" class="btn btn-block">
+    
+</form>>

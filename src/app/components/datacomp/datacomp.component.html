@@ -1,0 +1,3 @@
+<app-add-data (onAddData)="addData($event)"></app-add-data>
+<app-data-item *ngFor="let data of datas" [data]="data" (onDeleteData)="deleteData(data)"></app-data-item>
+
